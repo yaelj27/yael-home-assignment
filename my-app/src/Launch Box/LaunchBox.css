@@ -1,0 +1,50 @@
+.launch-box{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 800px;
+  margin: 20px;
+}
+
+.launch-box-text{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  margin: 10px;
+}
+
+.launch-box-row{
+  display: flex;
+}
+
+.row-lable{
+  font-weight: bold;
+  margin-right: 5px;
+  width: 165px;
+}
+
+.row-value{
+  width: calc(100% - 165px);
+}
+
+.launch-box-img{
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-position:center center;
+  background-repeat:no-repeat;
+  margin: 10px;
+}
+
+.copy-clipboard{
+    width: 50px;
+    height: 20px;
+    padding: 5px 0px 10px 10px;
+    margin: 15px 5px 10px 5px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 5px;
+}
